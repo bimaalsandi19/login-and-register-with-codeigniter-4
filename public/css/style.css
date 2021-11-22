@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.login,
+.reset_password {
+  background: linear-gradient(45deg, #f72585, #b5179e, #7209b7);
+  height: 100vh;
+}
+.register {
+  background: linear-gradient(45deg, #f72585, #b5179e, #594b63);
+  padding: 50px 0;
+}
+.login .card {
+  margin-top: 130px;
+  padding: 30px;
+  border-radius: 20px !important;
+}
+.reset_password .card {
+  margin-top: 130px;
+  padding: 30px;
+  border-radius: 20px !important;
+}
+h3 {
+  text-align: center;
+  font-weight: 700 !important;
+  font-size: 30px !important;
+  color: #b5179e;
+}
+.btn-login {
+  background: linear-gradient(45deg, #f72585, #b5179e, #7209b7);
+  color: #fff !important;
+  font-size: 16px;
+}
+
+.card a {
+  color: #f72585;
+  text-decoration: none;
+}
+.register .card {
+  padding: 20px;
+  border-radius: 20px !important;
+}
